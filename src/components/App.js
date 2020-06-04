@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../shared/components/layout/Header"
 import Footer from "../shared/components/layout/Footer"
-import Timer from "./Pomodro/Timer"
+import Coins from "./Coins/Coins"
 import './App.css';
 
 class App extends React.Component{
@@ -9,7 +9,7 @@ class App extends React.Component{
     return (
       <div className="App">
         <Header  title = "Welcome to CodeJobs"/>
-        <Timer />
+        <Coins />
         <Footer />
       </div>
     );
